@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628"/>
+      <stop offset="60%" style="stop-color:#0f2040"/>
+      <stop offset="100%" style="stop-color:#162c52"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5A623"/>
+      <stop offset="100%" style="stop-color:#ffc14d"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Gold accent bars -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#gold)"/>
+  <rect x="0" y="622" width="1200" height="8" fill="url(#gold)"/>
+  <!-- Left decorative line -->
+  <rect x="80" y="80" width="6" height="470" rx="3" fill="#F5A623" opacity="0.4"/>
+  <!-- Company Name -->
+  <text x="130" y="200" font-family="Arial,sans-serif" font-size="68" font-weight="900" fill="#F5A623" letter-spacing="-1">Swaranjali Tours</text>
+  <text x="130" y="270" font-family="Arial,sans-serif" font-size="44" font-weight="700" fill="white" opacity="0.9">and Travels</text>
+  <!-- Divider -->
+  <rect x="130" y="305" width="600" height="3" rx="2" fill="#F5A623" opacity="0.6"/>
+  <!-- Tagline -->
+  <text x="130" y="370" font-family="Arial,sans-serif" font-size="34" fill="white" opacity="0.85">Mumbai &#x2194; Pune Cab &amp; Bus Service</text>
+  <!-- Sub info -->
+  <text x="130" y="430" font-family="Arial,sans-serif" font-size="26" fill="#F5A623" opacity="0.9">Sedan • SUV • Innova Crysta • Tempo Traveller • Bus</text>
+  <!-- Phone -->
+  <text x="130" y="500" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="white">&#x260E; +91 7798942770  |  24/7 Booking</text>
+  <!-- MSME badge -->
+  <rect x="130" y="530" width="280" height="42" rx="21" fill="#F5A623" opacity="0.15" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="270" y="556" font-family="Arial,sans-serif" font-size="18" fill="#F5A623" text-anchor="middle" font-weight="600">Govt. Verified MSME</text>
+  <!-- Car silhouette right side -->
+  <g transform="translate(780,160) scale(1.6)">
+    <path d="M 60 140 L 60 115 Q 65 90 100 80 L 150 60 Q 185 45 230 45 L 300 45 Q 350 45 375 60 L 400 80 Q 430 90 440 115 L 440 140 Z" fill="#1e3a5f" stroke="#F5A623" stroke-width="2" opacity="0.8"/>
+    <path d="M 115 80 Q 120 60 150 55 L 220 55 L 220 80 Z M 230 55 L 300 55 L 320 80 L 230 80 Z" fill="#B8D4F0" opacity="0.5"/>
+    <circle cx="130" cy="148" r="22" fill="#0A1628" stroke="#F5A623" stroke-width="3"/>
+    <circle cx="130" cy="148" r="9" fill="#F5A623"/>
+    <circle cx="370" cy="148" r="22" fill="#0A1628" stroke="#F5A623" stroke-width="3"/>
+    <circle cx="370" cy="148" r="9" fill="#F5A623"/>
+  </g>
+</svg>

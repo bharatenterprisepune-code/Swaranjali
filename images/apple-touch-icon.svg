@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#e8931a"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <!-- Car body -->
+  <path d="M 28 118 L 28 100 Q 31 85 50 78 L 75 62 Q 90 55 105 55 L 130 55 Q 148 55 155 65 L 160 78 Q 168 87 168 100 L 168 118 Z" fill="#0A1628"/>
+  <!-- Windows -->
+  <path d="M 56 80 Q 58 64 72 60 L 95 60 L 95 80 Z M 100 60 L 122 60 L 130 80 L 100 80 Z" fill="#B8D4F0" opacity="0.7"/>
+  <!-- Wheels -->
+  <circle cx="65" cy="124" r="18" fill="#0A1628" stroke="#F5A623" stroke-width="3"/>
+  <circle cx="65" cy="124" r="7" fill="#F5A623"/>
+  <circle cx="140" cy="124" r="18" fill="#0A1628" stroke="#F5A623" stroke-width="3"/>
+  <circle cx="140" cy="124" r="7" fill="#F5A623"/>
+  <!-- Gold line -->
+  <rect x="10" y="146" width="160" height="3" rx="1.5" fill="#0A1628" opacity="0.3"/>
+  <!-- S letter -->
+  <text x="90" y="45" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="white" text-anchor="middle" opacity="0.9">SWARANJALI</text>
+</svg>
