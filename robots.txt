@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://swaranjalitoursandtravels.com/sitemap.xml
+Sitemap: https://swaranjalicabs.com/sitemap.xml
